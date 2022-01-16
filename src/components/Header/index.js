@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <section className="header">
                 <section className="header-logo">
-                    Logo
+                    Lauren Groh
                 </section>
                 <section className="header-nav">
                     <Navigation />

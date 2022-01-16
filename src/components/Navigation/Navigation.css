@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    margin: 0px 40px;
+}
+.navigation-list{
+    font-size: 25px;
+}

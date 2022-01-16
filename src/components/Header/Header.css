@@ -1,3 +1,10 @@
+.header{
+    text-align: center;
+}
+.header-nav{
+    text-align: center;
+}
 .header-logo {
     font-family: RobotoThin;
+    font-size: 100px;
 }
