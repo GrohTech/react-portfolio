@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className = "App">
-      <header classname = "App-header">
-        <p>
-          Full Stack Web Developer Lauren Groh
-        </p>
-      </header>
+      <Header />
+      <Navigation />
+      <Project />
+      <Footer />
     </div>
   );
 }
