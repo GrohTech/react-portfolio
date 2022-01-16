@@ -8,7 +8,7 @@ function Contact () {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
-    const handleSubmit = e => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
           console.log('Submit Form', formState);
@@ -39,12 +39,12 @@ function Contact () {
     return(
         <section id="contact" className="contact">
             <form onSubmit={handleSubmit}>
-                <label for="name">Your Name</label>
+                <label htmlFor="name">Your Name</label>
                 <input type="text" name="name" defaultValue={name} onBlur={handleChange}></input>
-                <label for="email">Your Email Address</label>
+                <label htmlFor="email">Your Email Address</label>
                 <input type="text" name="email" defaultValue={email} onBlur={handleChange}></input>
-                <label for="message">Enter a message</label>
-                <input type="text" name="message" defaultValue={message} onblur={handleChange}></input>
+                <label htmlFor="message">Enter a message</label>
+                <input type="text" name="message" defaultValue={message} onBlur={handleChange}></input>
                 {errorMessage && (
                 <div>
                 <p className="error-text">{errorMessage}</p>

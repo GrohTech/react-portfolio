@@ -1,5 +1,5 @@
 .header{
-    background-color: #F7FFDD;
+    background-color: #FCFDAF;
     color: #3D5A80;
     text-align: center;
     border-bottom: 1px solid black;
@@ -10,4 +10,8 @@
 .header-logo {
     font-family: RobotoThin;
     font-size: 100px;
+}
+.header a{
+text-decoration: none;
+color: #DC9E82;
 }

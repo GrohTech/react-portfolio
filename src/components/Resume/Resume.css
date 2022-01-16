@@ -1,0 +1,24 @@
+.resume {
+    background-color: #3D5A80;
+    color: #FCFDAF;
+    font-size: 25px;
+}
+.proficiencies {
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-list {
+    list-style-type: none;
+    font-size: 20px;
+    border-right: 1px solid black;
+}
+.download-resume {
+    font-size: 50px;
+    background-color: #FCFDAF;
+    color: #3D5A80;
+    border-radius: 10px 25px 10px 25px;
+}
+.resume a {
+    text-decoration: none;
+    color: #DC9E82;
+}
