@@ -1,0 +1,10 @@
+.about {
+    background-color: #3D5A80;
+    color: #DBA159;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* .about-item{
+
+} */

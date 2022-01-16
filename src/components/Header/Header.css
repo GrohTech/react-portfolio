@@ -1,5 +1,8 @@
 .header{
+    background-color: #F7FFDD;
+    color: #3D5A80;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 .header-nav{
     text-align: center;
