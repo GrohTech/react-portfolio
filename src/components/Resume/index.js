@@ -4,7 +4,8 @@ import './Resume.css';
 const Resume = () => {
    
     return(
-        <section className="resume">
+        <section id="resume" className="resume">
+        This is the resume.
         </section>
     )
 

@@ -8,7 +8,7 @@ import workItDone from '../../assets/images/work-it-done.png';
 const Project = () => {
     
     return(
-        <section className="project container">
+        <section id="portfolio" className="project container">
             <section className="row"> 
                 <section className="project-item" className=" col-sm">
                     <h3>Project 1</h3>
