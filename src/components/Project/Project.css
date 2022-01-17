@@ -8,6 +8,7 @@
     }
 .project-item {
     background-color: #FCFDAF;
+    border: 1px solid black;
 }
 .card-img-top {
     width: 100%;

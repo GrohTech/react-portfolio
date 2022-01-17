@@ -5,6 +5,7 @@ import teamProfileGenerator from '../../assets/images/team-profile-generator.png
 import socialNetworkApi from '../../assets/images/social-network-api.png';
 import workItDone from '../../assets/images/work-it-done.png';
 import dinnerAndDrinks from '../../assets/images/dinner-and-drinks.png';
+import weatherDashboard from '../../assets/images/weather-dashboard.png';
 
 const Project = () => {
     
@@ -13,51 +14,79 @@ const Project = () => {
             <section className="container">
                 <section className="row"> 
                     <section className="col-sm">
-                        <img src={employeeTracker} className= "card-img-top" id="employee-tracker" style={{ width: "500px", height: "300px" }} alt="employee tracker project photo" />
-                        <h3 className="card-body">Employee Tracker</h3>
+                        <section className="project-item card">
+                            <img src={employeeTracker} className= "card-img-top" id="employee-tracker" alt="employee tracker project photo" />
+                            <section className="card-body">
+                                <h3>Employee Tracker</h3>
+                                <section className="card-text">
+                                    <a className="card-link" href="https://github.com/GrohTech/employee-tracker" target="_blank">GitHub repo</a>
+                                    <a className="card-link" href="https://watch.screencastify.com/v/KHA73YEd53qYPZx0RQvn" target="_blank">Live Demo</a>
+                                </section>
+                            </section>
+                        </section>
                     </section>
-                    <section className=" col-sm">
-                        <h3>Team Profile Generator</h3>
-                        <img src={teamProfileGenerator} className= "about-item" id="team-profile-generator" style={{ width: "500px", height: "300px" }} alt="team profile generator project photo" />    
+                    <section className="col-sm">
+                        <section className="project-item card">
+                            <img src={teamProfileGenerator} className= "card-img-top" id="team-profile-generator" alt="team profile generator project photo" />  
+                            <section className="card-body">
+                                <h3>Team Profile Generator</h3>  
+                                <section className="card-text">
+                                    <a className="card-link" href="https://github.com/GrohTech/team-profile-generator" target="_blank">GitHub repo</a>
+                                    <a className="card-link" href="https://watch.screencastify.com/v/CFt3U2D1eMNp9MbqtOZv" target="_blank">Live Demo</a>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section className="col-sm">
+                        <section className="project-item card">
+                            <img src={socialNetworkApi} className="card-img-top" id="social-network-api" alt="social network api project photo" /> 
+                            <section className="card-body">
+                                <h3>Social Network API</h3>
+                                <section className="card-text"> 
+                                    <a className="card-link" href="https://github.com/GrohTech/social-network-api" target="_blank">GitHub repo</a>
+                                    <a className="card-link" href="https://watch.screencastify.com/v/K9tFri5Vgnd2mjEkZ2eV" target="_blank">Live Demo</a>
+                                </section>
+                            </section>
+                        </section>  
                     </section>
                 </section>
-                <section className="row">
-                    <section className="project-item" className=" col-sm">
-                        <h3>Social Network API</h3>
-                        <img src={socialNetworkApi} id="social-network-api" style={{ width: "450px", height: "250px" }} alt="social network api project photo" />   
-                    </section>
-                    <section className=" col-sm">
-                        <h3>Work It Done</h3>
-                        <img src={workItDone} id="work-it-done" style={{ width: "400px", height: "200px" }} alt="work it done project photo" />   
-                    </section>
-                    <section className="col-sm card project-item">
-                            <img src={dinnerAndDrinks} className= "card-img-top" id="dinner-and-drinks" alt="dinner and drinks project photo" />
+                <section className="row mt-4">
+                    <section className="col-sm">
+                        <section className="project-item card">
+                            <img src={workItDone} id="work-it-done" className="card-img-top" alt="work it done project photo" /> 
                             <section className="card-body">
-                                <h3 className="card-title">Dinner &amp; Drinks</h3>
-                                <section className="card-text">
-                                    <a className="card-link" href="https://github.com/GrohTech/dinner-and-drinks" target="_blank">GitHub repo</a>
-                                    <a className="card-link" href="https://grohtech.github.io/dinner-and-drinks/" target="_blank">Live project</a>
+                            <h3 className="card-title">Work It Done</h3>
+                            <section className="card-text"> 
+                                <a className="card-link" href="https://github.com/GrohTech/work-it-done" target="_blank">GitHub repo</a>
+                                <a className="card-link" href="https://warm-eyrie-07140.herokuapp.com/" target="_blank">Live Demo</a>
+                            </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section className="col-sm">
+                            <section className="project-item card">
+                                <img src={dinnerAndDrinks} className= "card-img-top" id="dinner-and-drinks" alt="dinner and drinks project photo" />
+                                <section className="card-body">
+                                    <h3 className="card-title">Dinner &amp; Drinks</h3>
+                                    <section className="card-text">
+                                        <a className="card-link" href="https://github.com/GrohTech/dinner-and-drinks" target="_blank">GitHub repo</a>
+                                        <a className="card-link" href="https://grohtech.github.io/dinner-and-drinks/" target="_blank">Live Demo</a>
+                                    </section>
                                 </section>
                             </section>
                     </section>
-                </section>
-                <section className="row"> 
-                        <section className="col-sm card">
-                            {/* <section className="project-item card"> */}
-                            <img src={dinnerAndDrinks} className= "card-img-top mx-auto" id="dinner-and-drinks" style={{ width: "500px", height: "300px" }} alt="dinner and drinks project photo" />
-                            <section className="card-body">
-                                <h3 className="card-title">Dinner &amp; Drinks</h3>
-                                <section className="card-text">
-                                    <a className="card-link" href="https://github.com/GrohTech/dinner-and-drinks" target="_blank">Check out the GitHub repo</a>
-                                    <a className="card-link" href="https://grohtech.github.io/dinner-and-drinks/" target="_blank">Check out the live project</a>
+                    <section className="col-sm">
+                            <section className="project-item card">
+                                <img src={weatherDashboard} className= "card-img-top" id="weather-dashboard" alt="weather dashboard project photo" />
+                                <section className="card-body">
+                                    <h3 className="card-title">Weather Dashboard</h3>
+                                    <section className="card-text">
+                                        <a className="card-link" href="https://github.com/GrohTech/weather-dashboard" target="_blank">GitHub repo</a>
+                                        <a className="card-link" href="https://grohtech.github.io/weather-dashboard/" target="_blank">Live Demo</a>
+                                    </section>
                                 </section>
                             </section>
-                            {/* </section> */}
-                        </section>
-                        <section className="project-item" className=" col-sm">
-                            <h3>Team Profile Generator</h3>
-                            <img src={teamProfileGenerator} className= "about-item" id="team-profile-generator" style={{ width: "500px", height: "300px" }} alt="team profile generator project photo" />    
-                        </section>
+                    </section>
                 </section>
             </section>
         </section>
