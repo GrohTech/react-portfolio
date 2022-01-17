@@ -5,11 +5,13 @@ import './Header.css';
 const Header = () => {
     return(
         <section className="header">
-                <section className="header-logo">
-                    Lauren Groh
-                </section>
-                <section className="header-nav">
-                    <Navigation />
+                <section className="container">
+                    <section className="header-logo row justify-content-center">
+                        Lauren Groh
+                    </section>
+                    <section className="header-nav row">
+                        <Navigation />
+                    </section>
                 </section>
         </section>
     )
