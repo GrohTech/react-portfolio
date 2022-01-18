@@ -6,10 +6,10 @@ const Resume = () => {
    
     return(
         <section id="resume" className="resume">
+            <h2>Skills &amp; Experience</h2>
             <section className="container">
                 <section className="row">
                 <section className="resume-item-1 col-sm my-auto">
-                    <h3 className="skills">Skills/Technologies:</h3>
                     <ul className="resume-list">
                         <li>MongoDB</li>
                         <li>Express.js</li>

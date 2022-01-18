@@ -1,6 +1,10 @@
 .project {
     background-color: #5C573E;
     padding: 30px 0px;
+    color: #FCFDAF;
+}
+.project h2 {
+    margin-bottom: 30px;
 }
 .project a{
     text-decoration: none;

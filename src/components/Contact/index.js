@@ -54,7 +54,7 @@ function Contact () {
                   <input type="text" name="message" defaultValue={message} onBlur={handleChange}></input>
                   </section>
                 </section>
-                <section className="row">
+                <section className="row justify-content-center">
                   {errorMessage && (
                   <div>
                   <p className="error-text">{errorMessage}</p>
