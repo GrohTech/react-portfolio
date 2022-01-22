@@ -21,3 +21,6 @@ code {
   font-family: 'RobotoThin';
   src: url(./fonts/Roboto-Thin.ttf);
 }
+.active {
+  color: limegreen;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../Navigation';
 import './Header.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -10,7 +11,6 @@ const Header = () => {
                         Lauren Groh
                     </section>
                     <section className="header-nav row">
-                        <Navigation />
                     </section>
                 </section>
         </section>
@@ -19,3 +19,5 @@ const Header = () => {
 }
 
 export default Header;
+
+// {/* <Navigation /> */}

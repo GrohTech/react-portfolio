@@ -10,7 +10,7 @@ import weatherDashboard from '../../assets/images/weather-dashboard.png';
 const Project = () => {
     
     return(
-        <section id="portfolio" className="project">
+        <section id="project" className="project">
             <h2>Projects</h2>
             <section className="container">
                 <section className="row"> 
