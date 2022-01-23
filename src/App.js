@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Project from './components/Project';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -13,13 +13,12 @@ function App() {
     <div className = "App">
       <Router>
         <Header />
-        <Navigation />
         <Switch>
           <Route 
             exact path="/about" component={About}
           />
           <Route 
-            exact path="/project" component={Project}
+            exact path="/projects" component={Projects}
           />
           <Route 
             exact path="/contact" component={Contact}
@@ -38,11 +37,3 @@ function App() {
 }
 
 export default App;
-
-
-// {/* <Header />
-// <About />
-// <Project />
-// <Contact />
-// <Resume />
-// <Footer /> */}

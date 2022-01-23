@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
 
     return(
-        <section className="navigation container">
+        <nav className="navigation container">
             <ul className="navigation-list row">
                 <li className="nav-item col-sm">
                     <NavLink 
@@ -19,7 +19,7 @@ const Navigation = () => {
                 <li className="nav-item col-sm">
                     <NavLink
                         activeClassName = "active"
-                        isActive ={() => window.location.pathname === "/project"}
+                        isActive ={() => window.location.pathname === "/projects"}
                         to = "/projects"
                     >
                     Projects
@@ -45,7 +45,7 @@ const Navigation = () => {
                 </li>
             </ul>
         
-        </section>
+        </nav>
     )
 
 }

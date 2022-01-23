@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.css';
+import './Projects.css';
 import employeeTracker from '../../assets/images/employee-tracker.png';
 import teamProfileGenerator from '../../assets/images/team-profile-generator.png';
 import socialNetworkApi from '../../assets/images/social-network-api.png';
@@ -7,10 +7,10 @@ import workItDone from '../../assets/images/work-it-done.png';
 import dinnerAndDrinks from '../../assets/images/dinner-and-drinks.png';
 import weatherDashboard from '../../assets/images/weather-dashboard.png';
 
-const Project = () => {
+const Projects = () => {
     
     return(
-        <section id="project" className="project">
+        <section id="projects" className="projects">
             <h2>Projects</h2>
             <section className="container">
                 <section className="row"> 
@@ -95,4 +95,4 @@ const Project = () => {
 
 }
 
-export default Project;
+export default Projects;

@@ -11,6 +11,7 @@ const Header = () => {
                         Lauren Groh
                     </section>
                     <section className="header-nav row">
+                         <Navigation />
                     </section>
                 </section>
         </section>
@@ -19,5 +20,3 @@ const Header = () => {
 }
 
 export default Header;
-
-// {/* <Navigation /> */}
