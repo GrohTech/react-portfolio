@@ -6,12 +6,11 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className = "App">
-      <Router>
         <Header />
         <Switch>
           <Route 
@@ -31,7 +30,6 @@ function App() {
           />
         </Switch>
         <Footer />
-      </Router>
     </div>
   );
 }
