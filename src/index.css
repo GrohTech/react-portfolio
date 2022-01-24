@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #FCFDAF;
 }
 
 code {
@@ -20,7 +25,4 @@ code {
 @font-face {
   font-family: 'RobotoThin';
   src: url(./fonts/Roboto-Thin.ttf);
-}
-.active {
-  color: limegreen;
 }

@@ -1,8 +1,12 @@
 .footer {
     background-color: #FCFDAF;
     color: #3D5A80;
-    border-top: 1px solid black;
     padding: 20px 0px;
+    margin: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
 }
 .footer-list {
     list-style-type: none;

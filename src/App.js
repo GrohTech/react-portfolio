@@ -11,25 +11,28 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div className = "App">
-        <Header />
-        <Switch>
-          <Route 
-            exact path="/about" component={About}
-          />
-          <Route 
-            exact path="/projects" component={Projects}
-          />
-          <Route 
-            exact path="/contact" component={Contact}
-          />
-          <Route 
-            exact path="/resume" component={Resume}
-          />
-          <Route
-            component={About}
-          />
-        </Switch>
-        <Footer />
+          <Header />
+          <section className="main overflow-auto">
+          <Switch>
+            <Route 
+              exact path="/about" component={About}
+            />
+            <Route 
+              exact path="/projects" component={Projects}
+            />
+            <Route 
+              exact path="/contact" component={Contact}
+            />
+            <Route 
+              exact path="/resume" component={Resume}
+            />
+            <Route
+              component={About}
+            />
+          </Switch>
+          </section>
+          <Footer />
+
     </div>
   );
 }

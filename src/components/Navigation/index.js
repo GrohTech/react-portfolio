@@ -7,7 +7,7 @@ const Navigation = () => {
     return(
         <nav className="navigation container">
             <ul className="navigation-list row">
-                <li className="nav-item col-sm">
+                <li className="col-sm">
                     <NavLink 
                         activeClassName = "active"
                         isActive={() => window.location.pathname === "/about"}
@@ -16,7 +16,7 @@ const Navigation = () => {
                     About
                     </NavLink>            
                 </li>
-                <li className="nav-item col-sm">
+                <li className="col-sm">
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/projects"}
@@ -25,7 +25,7 @@ const Navigation = () => {
                     Projects
                     </NavLink>
                 </li>
-                <li className="nav-item col-sm">
+                <li className="col-sm">
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/contact"}
@@ -34,7 +34,7 @@ const Navigation = () => {
                     Contact
                     </NavLink>
                 </li>
-                <li className="nav-item col-sm">
+                <li className="col-sm">
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/resume"}

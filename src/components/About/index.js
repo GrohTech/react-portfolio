@@ -8,8 +8,8 @@ const About = () => {
         <section className="about" id="about">
             <section className="container">
                 <section className="row">
-                    <section className="about-item col-sm-4 my-auto">
-                        <img src={portfolioPhoto} className= "about-item" id="portfolio-photo" style={{ width: "300px", height: "300px" }} alt="portfolio-photo" />
+                    <section className="col-sm-4 my-auto">
+                        <img src={portfolioPhoto} className= "portfolio-photo" id="portfolio-photo" alt="portfolio-photo" />
                     </section>
                     <section className="about-item col-sm-8 my-auto text-start">
                         <p>A love for hiking and camping is what inspired me to create my first website on WordPress, in 2015. I became empowered by the realization that I could solve any problem by seeking information and educating myself.</p>
@@ -23,3 +23,5 @@ const About = () => {
 }
 
 export default About;
+
+// style={{ width: "300px", height: "300px" }}
