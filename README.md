@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is my professional portfolio built with React.js, Node.js, and Bootstrap. It can also be used as a template for a different user's portfolio.
+This is a single-page professional portfolio application built with React.js, Node.js, and Bootstrap. Implemented useState hooks and React Router DOM paths and routes to achieve single-page functionality. . It can also be used as a template for a different user's portfolio.
 
 * **[View the Live Portfolio](https://grohtech.github.io/react-portfolio/)**
   
