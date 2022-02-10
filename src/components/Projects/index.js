@@ -5,7 +5,7 @@ import teamProfileGenerator from '../../assets/images/team-profile-generator.png
 import socialNetworkApi from '../../assets/images/social-network-api.png';
 import workItDone from '../../assets/images/work-it-done.png';
 import dinnerAndDrinks from '../../assets/images/dinner-and-drinks.png';
-import weatherDashboard from '../../assets/images/weather-dashboard.png';
+import stillGood from '../../assets/images/still-good.png';
 
 const Projects = () => {
     
@@ -78,12 +78,12 @@ const Projects = () => {
                     </section>
                     <section className="col-sm">
                             <section className="project-item card">
-                                <img src={weatherDashboard} className= "card-img-top" id="weather-dashboard" alt="weather dashboard project photo" />
+                                <img src={stillGood} className= "card-img-top" id="still-good" alt="still good project photo" />
                                 <section className="card-body">
-                                    <h3 className="card-title">Weather Dashboard</h3>
+                                    <h3 className="card-title">StillGood</h3>
                                     <section className="card-text">
                                         <a className="card-link" href="https://github.com/GrohTech/weather-dashboard" target="_blank">GitHub repo</a>
-                                        <a className="card-link" href="https://grohtech.github.io/weather-dashboard/" target="_blank">Live Demo</a>
+                                        <a className="card-link" href="https://pacific-bayou-24755.herokuapp.com/" target="_blank">Live Demo</a>
                                     </section>
                                 </section>
                             </section>
