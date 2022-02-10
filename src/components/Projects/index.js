@@ -82,7 +82,7 @@ const Projects = () => {
                                 <section className="card-body">
                                     <h3 className="card-title">StillGood</h3>
                                     <section className="card-text">
-                                        <a className="card-link" href="https://github.com/GrohTech/weather-dashboard" target="_blank">GitHub repo</a>
+                                        <a className="card-link" href="https://github.com/GrohTech/still-good" target="_blank">GitHub repo</a>
                                         <a className="card-link" href="https://pacific-bayou-24755.herokuapp.com/" target="_blank">Live Demo</a>
                                     </section>
                                 </section>
