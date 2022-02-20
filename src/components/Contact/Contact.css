@@ -25,4 +25,16 @@ input{
 }
 .contact-links {
     margin-top: 30px;
+    background-color: #FCFDAF;
+    color: #3D5A80;
+    border-radius: 10px 25px 10px 25px;
+    border: 1px solid #3D5A80;
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: 30vw;
+    max-width: 300px;
 }
+.contact a{
+    text-decoration: none;
+    color: #AC3931;
+    }

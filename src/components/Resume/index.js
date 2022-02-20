@@ -30,7 +30,7 @@ const Resume = () => {
                         <li>WordPress</li>
                     </ul>
                 </section>
-                <section className="resume-item col-sm my-auto">
+                <section className="resume-item col-sm justify-content-start">
                     <h3 className="download-resume "><a href={ resume } target="_blank">Download Resume</a></h3>
                 </section>
                 </section>
