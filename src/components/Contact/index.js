@@ -41,39 +41,47 @@ function Contact() {
       <h2>Contact</h2>
       <section className="container">
         <section className="row">
-          <section className="col-4">
-          <form onSubmit={handleSubmit} className="container">
-            <section className="row">
-            <section className="col-8">
-                <label htmlFor="name">Your Name</label>
-            </section>
-            <section className="col-sm">  
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange}></input>
-            </section>
-            </section>
-            <section className="row">
+          <section className="col-sm">
+            <form onSubmit={handleSubmit} className="container">
+              <section className="row">
+                <section className="col-sm-4">
+                  <label htmlFor="name">Your Name</label>
+                </section>
+                <section className="col-sm-8 justify-content-start">
+                  <input type="text" name="name" defaultValue={name} onBlur={handleChange}></input>
+                </section>
+              </section>
+              <section className="row mt-3">
+              <section className="col-sm-4">
                 <label htmlFor="email">Your Email Address</label>
+              </section>
+              <section className="col-sm-8 justify-content-start">
                 <input type="text" name="email" defaultValue={email} onBlur={handleChange}></input>
-            </section>
-            <section className="row">
+              </section>
+              </section>
+              <section className="row mt-3 mb-3">
+              <section className="col-sm-4">
                 <label htmlFor="message">Enter a message</label>
+              </section>
+              <section className="col-sm-8 justify-content-start">
                 <input type="text" name="message" defaultValue={message} onBlur={handleChange}></input>
-            </section>
-            <section className="row justify-content-center">
-              {errorMessage && (
-                <div>
-                  <p className="error-text">{errorMessage}</p>
-                </div>)}
-              <button type="submit">Submit</button>
-            </section>
-          </form>
+              </section>
+              </section>
+              <section className="row justify-content-center">
+                {errorMessage && (
+                  <div>
+                    <p className="error-text">{errorMessage}</p>
+                  </div>)}
+                <button type="submit">Submit</button>
+              </section>
+            </form>
           </section>
-          <section className="col-sm justify-content-start">
-          <section className="contact-links">
-            <p>Email: <a href="mailto:legroh.groh@gmail.com">legroh.groh@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/GrohTech">github.com/GrohTech</a></p>
-            <p>LinkedIn <a href="https://www.linkedin.com/in/legroh/">linkedin.com/in/legroh</a></p>
-          </section>
+          <section className="col-sm">
+            <section className="contact-links">
+              <p>Email: <a href="mailto:legroh.groh@gmail.com">legroh.groh@gmail.com</a></p>
+              <p>GitHub: <a href="https://github.com/GrohTech">github.com/GrohTech</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/legroh/">linkedin.com/in/legroh</a></p>
+            </section>
           </section>
         </section>
       </section>

@@ -15,22 +15,35 @@ const Resume = () => {
                         <li>Express.js</li>
                         <li>React.js</li>
                         <li>Node.js</li>
-                        <li>SQL</li>
                         <li>MySQL</li>
                         <li>Sequelize</li>
                         <li>Mongoose ODM</li>
                         <li>jQuery</li>
                         <li>MaterialUI</li>
+                        <li>GraphQL</li>
+                        <li>Jest</li>
+                        <li>IndexedDB</li>
+                        <li>Webpack</li>
+                    </ul>
+                </section>
+                <section  className="resume-item-2 col-sm my-auto">
+                    <ul className="resume-list">
+                        <li>SQL</li>
                         <li>JavaScript</li>
-                        <li>HTML/CSS</li>
-                        <li>Git/GitHub</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Object-Relational Mapping</li>
+                        <li>Progressive Web Applications</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
                         <li>Heroku</li>
                         <li>Insomnia REST Client</li>
                         <li>MySQL Workbench</li>
                         <li>WordPress</li>
                     </ul>
                 </section>
-                <section className="resume-item col-sm justify-content-start">
+                <section className="resume-item col-sm my-auto">
                     <h3 className="download-resume "><a href={ resume } target="_blank">Download Resume</a></h3>
                 </section>
                 </section>
