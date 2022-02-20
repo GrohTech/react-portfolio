@@ -2,21 +2,28 @@
     padding: 30px 0px;
     background-color: #AC3931;
     color: #FCFDAF; 
-    height: 60vh;
+    height: 100vh;
+    margin-top: 10px;
 }
 .contact h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 form {
     font-size: 20px;
 }
 label{
+    margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 20px;
+}
+input{
+    margin-top: 10px;
 }
 .contact button {
     width: 50%;
-    margin-top: 5px;
+    margin-top: 20px;
     background-color: #5C573E;
     color: #FCFDAF;
+}
+.contact-links {
+    margin-top: 30px;
 }

@@ -6,9 +6,9 @@ const About = () => {
    
     return(
         <section className="about" id="about">
-            <section className="container">
+            <section className="container mt-3">
                 <section className="row">
-                    <section className="col-sm-4 my-auto">
+                    <section className="col-sm-4 justify-content-start">
                         <img src={portfolioPhoto} className= "portfolio-photo" id="portfolio-photo" alt="portfolio-photo" />
                     </section>
                     <section className="about-item col-sm-8 my-auto text-start">

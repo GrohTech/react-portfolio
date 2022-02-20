@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <section className="header">
                 <section className="container">
-                    <section className="header-logo row justify-content-center">
+                    <section className="portfolio-name header-logo row justify-content-center">
                         Lauren Groh
                     </section>
                     <section className="header-nav row">

@@ -15,9 +15,18 @@ const Resume = () => {
                         <li>Express.js</li>
                         <li>React.js</li>
                         <li>Node.js</li>
-                        <li>Git/GitHub</li>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                        <li>Sequelize</li>
+                        <li>Mongoose ODM</li>
+                        <li>jQuery</li>
+                        <li>MaterialUI</li>
                         <li>JavaScript</li>
                         <li>HTML/CSS</li>
+                        <li>Git/GitHub</li>
+                        <li>Heroku</li>
+                        <li>Insomnia REST Client</li>
+                        <li>MySQL Workbench</li>
                         <li>WordPress</li>
                     </ul>
                 </section>

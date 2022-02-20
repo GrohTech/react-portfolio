@@ -62,6 +62,11 @@ function Contact () {
                   <button type="submit">Submit</button>
                 </section>
             </form>
+            <section className="contact-links">
+              <p>Email: <a href="mailto:legroh.groh@gmail.com">legroh.groh@gmail.com</a></p>
+              <p>GitHub: <a href="https://github.com/GrohTech">github.com/GrohTech</a></p>              <p>LinkedIn <a href="https://www.linkedin.com/in/legroh/">linkedin.com/in/legroh</a></p>
+
+            </section>
         </section>
     )
 
