@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.eee19537.css",
-    "main.js": "/react-portfolio/static/js/main.0c9d38f7.js",
+    "main.css": "/react-portfolio/static/css/main.8689a6bf.css",
+    "main.js": "/react-portfolio/static/js/main.3d22432b.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/portfolio-photo.png": "/react-portfolio/static/media/portfolio-photo.c82b6278870a01438c5c.png",
     "static/media/dinner-and-drinks.png": "/react-portfolio/static/media/dinner-and-drinks.ae1a6f88e21eb866b6b2.png",
@@ -12,14 +12,14 @@
     "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.63157881adc6083a9eeb.png",
     "static/media/still-good.png": "/react-portfolio/static/media/still-good.bc9c9f53e79cfea3e3f6.png",
     "static/media/social-network-api.png": "/react-portfolio/static/media/social-network-api.965887ef5acf4f0f9b20.png",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.61eece229d72fa1786a4.pdf",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.885e2ac4ffbf598f8346.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.eee19537.css.map": "/react-portfolio/static/css/main.eee19537.css.map",
-    "main.0c9d38f7.js.map": "/react-portfolio/static/js/main.0c9d38f7.js.map",
+    "main.8689a6bf.css.map": "/react-portfolio/static/css/main.8689a6bf.css.map",
+    "main.3d22432b.js.map": "/react-portfolio/static/js/main.3d22432b.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee19537.css",
-    "static/js/main.0c9d38f7.js"
+    "static/css/main.8689a6bf.css",
+    "static/js/main.3d22432b.js"
   ]
 }
